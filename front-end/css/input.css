@@ -1,0 +1,32 @@
+@charset "utf-8";
+.form-login {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+input {
+    margin: 10px 0;
+}
+
+.panel-footer.navbar-fixed-bottom {
+    text-align: center;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-collapse.collapse {
+    float: left
+}
+
+
+@media all and (min-width: 768px) {
+    .navbar-collapse.collapse {
+        float:right
+    }
+}
